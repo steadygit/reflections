@@ -6,3 +6,6 @@ How is the staging area different from the working directory and the repository?
 
 	The staging area consists of those files in the working directory that have been declared to be ready to be added to the repository.  It allows multiple steps, i.e., adds, to be done on different files to make up the set of files that the programmer thinks are logically related.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By adding the set of files involved in the logical change to the staging area, and no others.
