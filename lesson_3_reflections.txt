@@ -2,3 +2,7 @@ When would you want to use a remote repository rather than keeping all your work
 local?
 
 	I would want to use a remote repository when I am myself moving among locations and/or computers, when I am collaborating with other people who are no on my computer, and when I want a larger group of people to be able to see, and perhaps interact with the content of the repository.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	The point of having local-remote stores is to be able to develop locally, without affecting, or being affected by, other changes until an explicit decision is made to commit the changes.  Meanwhile, other team members have full access to the various trees store on github.
