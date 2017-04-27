@@ -6,3 +6,7 @@ local?
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 	The point of having local-remote stores is to be able to develop locally, without affecting, or being affected by, other changes until an explicit decision is made to commit the changes.  Meanwhile, other team members have full access to the various trees store on github.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Forks are copies (clones) of repositories made on github.  Clones are copies (clones) of repositories that are not on gethub.  They can be local or remote.  A branch is the named tip of a sequence of commit nodes.  Because of merges, all the sequence trees can have holes in their trunks or branches.
